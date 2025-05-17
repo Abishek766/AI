@@ -1,0 +1,12 @@
+Titanic Dataset EDA Report
+1. Overview
+   - Dataset contains 891 rows and 12 columns
+   - Missing values are handled for 'Age' (filled with median) and 'Embarked' ( Filled with mode).
+
+2. Key Insights.
+   - Surival rates are highest for first - class passengers (62%) and lower for third-class customers (24%)
+   - Majority of passengers are aged between 20-40 years
+   - A positive correlation exists between fare and surival
+
+3. Visual Insights
+   - Add screenshots
