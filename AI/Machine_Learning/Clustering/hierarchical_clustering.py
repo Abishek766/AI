@@ -12,10 +12,10 @@ X = df[['Annual Income (k$)','Spending Score (1-100)']].values
 
 #Using dendrogram to find number of clusters
 dendrogram = sch.dendrogram(sch.linkage(X, method='ward'))
-# plt.title('Dendrograms')
-# plt.xlabel('Customers')
-# plt.ylabel('Spending')
-# plt.show()
+plt.title('Dendrograms')
+plt.xlabel('Customers')
+plt.ylabel('Spending')
+plt.show()
 
 plt.close()
 
